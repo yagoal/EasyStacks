@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "EasyStacks",
-    defaultLocalization: "en", 
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v12)
     ],
@@ -21,6 +21,7 @@ let package = Package(
             name: "EasyStacks",
             dependencies: ["SnapKit"],
             path: "Sources/EasyStacks",
+            exclude: [],
             resources: [
                 .process("Resources")
             ]
