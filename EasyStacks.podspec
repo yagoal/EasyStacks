@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'EasyStacks'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A framework to simplify working with stacks and constraints in UIKit.'
   s.description      = <<-DESC
     EasyStacks is a framework that simplifies creating stack-based layouts 
