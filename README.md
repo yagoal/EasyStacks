@@ -171,9 +171,77 @@ final class MyCustomView: EasyStackView {
 }
 ```
 
+### 7. EasySpacer
+
+The EasySpacer is a custom view that acts as a spacer within layouts. It can either expand flexibly to fill available space or have a fixed size, depending on the configuration. It’s particularly useful for creating dynamic spacing in stack-based layouts.
+
+Explanation:
+Use EasySpacer when you need adjustable spacing between elements, either to fill remaining space or to define fixed gaps.
+
+```swift
+let verticalStack = VStack(spacing: 10) {
+    UILabel() .. {
+        $0.text = "Item 1"
+    }
+    EasySpacer(fixedSize: 20) // Fixed size spacer
+    UILabel() .. {
+        $0.text = "Item 2"
+    }
+    EasySpacer() // Flexible spacer that fills remaining space
+    UILabel() .. {
+        $0.text = "Item 3"
+    }
+}
+```
+
+EasySpacer Initialization
+
+Flexible Spacer:
+By default, an EasySpacer will expand to fill the remaining space along its axis.
+
+```swift let flexibleSpacer = EasySpacer() // Expands to fill available space```
+
+
+Fixed Size Spacer:
+You can specify a fixed size for the spacer, either in height (for vertical layouts) or width (for horizontal layouts).
+
+```swift let fixedSpacer = EasySpacer(fixedSize: 20, axis: .vertical) // Fixed height of 20```
+
+Advanced Usage with Stacks
+
+The EasySpacer integrates seamlessly with VStack and HStack to create dynamic layouts.
+
+Example: Vertical Layout
+
+```swift
+let verticalStack = VStack(spacing: 8) {
+    UILabel() .. {
+        $0.text = "Header"
+    }
+    EasySpacer() // Pushes content to the bottom
+    UIButton(type: .system) .. {
+        $0.setTitle("Confirm", for: .normal)
+    }
+}
+```
+
+Example: Horizontal Layout
+
+```swift
+let horizontalStack = HStack(spacing: 16) {
+    UILabel() .. {
+        $0.text = "Left"
+    }
+    EasySpacer() // Pushes content to the sides
+    UILabel() .. {
+        $0.text = "Right"
+    }
+}
+```
+
 <br>
 
-### 7. Advanced: Custom Insets
+### 8. Advanced: Custom Insets
 
 You can customize stack insets using EdgeInsetsDirection.
 
@@ -189,6 +257,12 @@ let customStack = VStack(spacing: 10, insets: .top(20) + .left(10)) {
     }
 }
 ```
+<br>
+
+
+Summary
+
+The EasySpacer is a versatile tool for creating dynamic, stack-friendly layouts. Whether you need fixed or flexible spacing, it fits seamlessly into both vertical and horizontal stacks, making your UI layouts cleaner and more adaptable.
 
 <br>
 Requirements
