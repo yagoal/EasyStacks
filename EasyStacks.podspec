@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'EasyStacks'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A framework to simplify working with stacks and constraints in UIKit.'
   s.description      = <<-DESC
     EasyStacks is a framework that simplifies creating stack-based layouts 
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yago Augusto' => 'br.yago@gmail.com' }
   s.platform         = :ios, '12.0'
-  s.source           = { :git => 'git@github.com:yagoal/EasyStacks.git', :tag => '1.0.0' }
+  s.source = { :git => 'https://github.com/yagoal/EasyStacks.git', :tag => s.version.to_s }
   s.source_files     = 'Sources/**/*.{swift}'
 
   s.dependency 'SnapKit', '~> 5.7.1'

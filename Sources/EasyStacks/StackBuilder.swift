@@ -102,7 +102,7 @@ public func VStack(
     )
 }
 
-private func VStack(
+public func VStack(
     alignment: UIStackView.Alignment = .fill,
     distribution: UIStackView.Distribution = .fill,
     spacing: CGFloat = 0,
@@ -167,7 +167,7 @@ public func HStack(
     )
 }
 
-private func HStack(
+public func HStack(
     alignment: UIStackView.Alignment = .fill,
     distribution: UIStackView.Distribution = .fill,
     spacing: CGFloat = 0,
@@ -231,7 +231,7 @@ public func VScroll(
     )
 }
 
-private func VScroll(
+public func VScroll(
     spacing: CGFloat = 0,
     insets: EdgeInsetsRepresentable = EdgeInsetsDirection.all(0),
     showsScrollIndicator: Bool = true,
@@ -307,7 +307,7 @@ public func HScroll(
     )
 }
 
-private func HScroll(
+public func HScroll(
     spacing: CGFloat = 0,
     insets: EdgeInsetsRepresentable = EdgeInsetsDirection.all(0),
     showsScrollIndicator: Bool = true,

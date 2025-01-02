@@ -7,3 +7,4 @@ Gemfile
 Gemfile.lock
 *.sketch
 .swiftpm
+.plist
