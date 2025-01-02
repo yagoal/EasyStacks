@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  EasyStacks
+//  EasyStacksSampleApp
 //
 //  Created by Yago Augusto on 01/01/25.
 //

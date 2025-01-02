@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		934744B02D262F05003CB54E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 934744AF2D262F05003CB54E /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		93025A962D25F7D900980F95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,14 +25,40 @@
 			remoteGlobalIDString = 93025A7E2D25F7D800980F95;
 			remoteInfo = EasyStacks;
 		};
+		9347450E2D263058003CB54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93025A772D25F7D800980F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934744F72D263057003CB54E;
+			remoteInfo = EasyStacksSampleApp;
+		};
+		934745182D263058003CB54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93025A772D25F7D800980F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934744F72D263057003CB54E;
+			remoteInfo = EasyStacksSampleApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		93025A7F2D25F7D800980F95 /* EasyStacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyStacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93025A952D25F7D900980F95 /* EasyStacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyStacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93025A9F2D25F7D900980F95 /* EasyStacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyStacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		934744512D262392003CB54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934744F82D263057003CB54E /* EasyStacksSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyStacksSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9347450D2D263058003CB54E /* EasyStacksSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyStacksSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934745172D263058003CB54E /* EasyStacksSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyStacksSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9347451F2D263058003CB54E /* Exceptions for "EasyStacksSampleApp" folder in "EasyStacksSampleApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 934744F72D263057003CB54E /* EasyStacksSampleApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		93025A812D25F7D800980F95 /* EasyStacks */ = {
@@ -46,6 +76,24 @@
 			path = EasyStacksUITests;
 			sourceTree = "<group>";
 		};
+		934744F92D263057003CB54E /* EasyStacksSampleApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9347451F2D263058003CB54E /* Exceptions for "EasyStacksSampleApp" folder in "EasyStacksSampleApp" target */,
+			);
+			path = EasyStacksSampleApp;
+			sourceTree = "<group>";
+		};
+		934745102D263058003CB54E /* EasyStacksSampleAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EasyStacksSampleAppTests;
+			sourceTree = "<group>";
+		};
+		9347451A2D263058003CB54E /* EasyStacksSampleAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EasyStacksSampleAppUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934744B02D262F05003CB54E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +119,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		934744F52D263057003CB54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9347450A2D263058003CB54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934745142D263058003CB54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +149,10 @@
 				93025C2F2D26090A00980F95 /* Sources */,
 				93025A982D25F7D900980F95 /* EasyStacksTests */,
 				93025AA22D25F7D900980F95 /* EasyStacksUITests */,
+				934744F92D263057003CB54E /* EasyStacksSampleApp */,
+				934745102D263058003CB54E /* EasyStacksSampleAppTests */,
+				9347451A2D263058003CB54E /* EasyStacksSampleAppUITests */,
+				934744AE2D262F05003CB54E /* Frameworks */,
 				93025A802D25F7D800980F95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +163,9 @@
 				93025A7F2D25F7D800980F95 /* EasyStacks.app */,
 				93025A952D25F7D900980F95 /* EasyStacksTests.xctest */,
 				93025A9F2D25F7D900980F95 /* EasyStacksUITests.xctest */,
+				934744F82D263057003CB54E /* EasyStacksSampleApp.app */,
+				9347450D2D263058003CB54E /* EasyStacksSampleAppTests.xctest */,
+				934745172D263058003CB54E /* EasyStacksSampleAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,10 +173,16 @@
 		93025C2F2D26090A00980F95 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				934744512D262392003CB54E /* Info.plist */,
 				93025A812D25F7D800980F95 /* EasyStacks */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		934744AE2D262F05003CB54E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +205,7 @@
 			);
 			name = EasyStacks;
 			packageProductDependencies = (
+				934744AF2D262F05003CB54E /* SnapKit */,
 			);
 			productName = EasyStacks;
 			productReference = 93025A7F2D25F7D800980F95 /* EasyStacks.app */;
@@ -173,6 +257,74 @@
 			productReference = 93025A9F2D25F7D900980F95 /* EasyStacksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		934744F72D263057003CB54E /* EasyStacksSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934745202D263058003CB54E /* Build configuration list for PBXNativeTarget "EasyStacksSampleApp" */;
+			buildPhases = (
+				934744F42D263057003CB54E /* Sources */,
+				934744F52D263057003CB54E /* Frameworks */,
+				934744F62D263057003CB54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				934744F92D263057003CB54E /* EasyStacksSampleApp */,
+			);
+			name = EasyStacksSampleApp;
+			packageProductDependencies = (
+			);
+			productName = EasyStacksSampleApp;
+			productReference = 934744F82D263057003CB54E /* EasyStacksSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9347450C2D263058003CB54E /* EasyStacksSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934745232D263058003CB54E /* Build configuration list for PBXNativeTarget "EasyStacksSampleAppTests" */;
+			buildPhases = (
+				934745092D263058003CB54E /* Sources */,
+				9347450A2D263058003CB54E /* Frameworks */,
+				9347450B2D263058003CB54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9347450F2D263058003CB54E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				934745102D263058003CB54E /* EasyStacksSampleAppTests */,
+			);
+			name = EasyStacksSampleAppTests;
+			packageProductDependencies = (
+			);
+			productName = EasyStacksSampleAppTests;
+			productReference = 9347450D2D263058003CB54E /* EasyStacksSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		934745162D263058003CB54E /* EasyStacksSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934745262D263058003CB54E /* Build configuration list for PBXNativeTarget "EasyStacksSampleAppUITests" */;
+			buildPhases = (
+				934745132D263058003CB54E /* Sources */,
+				934745142D263058003CB54E /* Frameworks */,
+				934745152D263058003CB54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934745192D263058003CB54E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9347451A2D263058003CB54E /* EasyStacksSampleAppUITests */,
+			);
+			name = EasyStacksSampleAppUITests;
+			packageProductDependencies = (
+			);
+			productName = EasyStacksSampleAppUITests;
+			productReference = 934745172D263058003CB54E /* EasyStacksSampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,6 +345,17 @@
 					93025A9E2D25F7D900980F95 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 93025A7E2D25F7D800980F95;
+					};
+					934744F72D263057003CB54E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					9347450C2D263058003CB54E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 934744F72D263057003CB54E;
+					};
+					934745162D263058003CB54E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 934744F72D263057003CB54E;
 					};
 				};
 			};
@@ -216,6 +379,9 @@
 				93025A7E2D25F7D800980F95 /* EasyStacks */,
 				93025A942D25F7D900980F95 /* EasyStacksTests */,
 				93025A9E2D25F7D900980F95 /* EasyStacksUITests */,
+				934744F72D263057003CB54E /* EasyStacksSampleApp */,
+				9347450C2D263058003CB54E /* EasyStacksSampleAppTests */,
+				934745162D263058003CB54E /* EasyStacksSampleAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +402,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		93025A9D2D25F7D900980F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934744F62D263057003CB54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9347450B2D263058003CB54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934745152D263058003CB54E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,6 +453,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		934744F42D263057003CB54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934745092D263058003CB54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934745132D263058003CB54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -278,6 +486,16 @@
 			isa = PBXTargetDependency;
 			target = 93025A7E2D25F7D800980F95 /* EasyStacks */;
 			targetProxy = 93025AA02D25F7D900980F95 /* PBXContainerItemProxy */;
+		};
+		9347450F2D263058003CB54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934744F72D263057003CB54E /* EasyStacksSampleApp */;
+			targetProxy = 9347450E2D263058003CB54E /* PBXContainerItemProxy */;
+		};
+		934745192D263058003CB54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934744F72D263057003CB54E /* EasyStacksSampleApp */;
+			targetProxy = 934745182D263058003CB54E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -297,6 +515,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +544,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,6 +749,138 @@
 			};
 			name = Release;
 		};
+		934745212D263058003CB54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A39M3T9CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasyStacksSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yago.augusto.EasyStacksSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934745222D263058003CB54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A39M3T9CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasyStacksSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yago.augusto.EasyStacksSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		934745242D263058003CB54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A39M3T9CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yago.augusto.EasyStacksSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyStacksSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyStacksSampleApp";
+			};
+			name = Debug;
+		};
+		934745252D263058003CB54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A39M3T9CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yago.augusto.EasyStacksSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyStacksSampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyStacksSampleApp";
+			};
+			name = Release;
+		};
+		934745272D263058003CB54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A39M3T9CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yago.augusto.EasyStacksSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyStacksSampleApp;
+			};
+			name = Debug;
+		};
+		934745282D263058003CB54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A39M3T9CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yago.augusto.EasyStacksSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyStacksSampleApp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,6 +920,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		934745202D263058003CB54E /* Build configuration list for PBXNativeTarget "EasyStacksSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934745212D263058003CB54E /* Debug */,
+				934745222D263058003CB54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934745232D263058003CB54E /* Build configuration list for PBXNativeTarget "EasyStacksSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934745242D263058003CB54E /* Debug */,
+				934745252D263058003CB54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934745262D263058003CB54E /* Build configuration list for PBXNativeTarget "EasyStacksSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934745272D263058003CB54E /* Debug */,
+				934745282D263058003CB54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -580,6 +959,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		934744AF2D262F05003CB54E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9347446D2D2623A8003CB54E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 93025A772D25F7D800980F95 /* Project object */;
 }
