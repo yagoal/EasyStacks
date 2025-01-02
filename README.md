@@ -17,10 +17,13 @@ The goal of EasyStacks is to simplify layout creation in UIKit projects, reducin
 ---
 
 ## Installation
+### ⚠️ Current Version: 1.0.2
 
 ### Swift Package Manager (SPM)
 
 To use **EasyStacks** in your project, follow these steps:
+
+
 
 1. Open your project in Xcode.
 2. Go to **File > Add Packages**.
@@ -28,14 +31,14 @@ To use **EasyStacks** in your project, follow these steps:
 
 https://github.com/yagoal/EasyStacks.git
 
-4. Choose the version (e.g., 1.0.0) and click **Add Package**.
+4. Choose the version (e.g., 1.0.2) and click **Add Package**.
 5. Select the target where you want to add EasyStacks.
 
 Alternatively, you can integrate **EasyStacks** directly into your `Package.swift` file:
 
 ```swift
 dependencies: [
- .package(url: "https://github.com/yagoal/EasyStacks.git", from: "1.0.0")
+ .package(url: "https://github.com/yagoal/EasyStacks.git", from: "1.0.2")
 ],
 targets: [
  .target(
